@@ -1,15 +1,12 @@
 field,display_name,browse_link
+identifier,Call number
 title,Title,
 creator,Creator,
-date,Date Created,
-description,Description,
-subject,Subjects,true
-location,Location
-latitude,Latitude
-longitude,Longitude
+date_display,Date Created,
+subject,Actress,true
+location,Location,true
 source,Source
-identifier,Source Identifier
 type,Type,
 format,Format,
 rights,Rights,
-rightsstatement,Rights Statement,
+rightsstatement,Rights statement,
