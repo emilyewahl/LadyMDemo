@@ -8,11 +8,11 @@
 #
 # featured image is used in home page banner and in meta markup to represent the collection
 # use either an objectid (from an item in this collect), a relative location of an image in this repo, or a full url to an image elsewhere
-featured-image: demo_001
+featured-image: 003035
 # optional: add extra padding around collection title for a larger image feature. 
 home-title-y-padding: # Default is 8em
 # optional: change position of background image, center, top, bottom
-home-banner-image-position: # Default is center
+home-banner-image-position: top
 # height of the carousel at the bottom of the home page; this is in px, but just enter a number (don't include "px"). Default is 300
 carousel-height: 300 
 # If you'd like to feature specific subjects on the front page, fill in the below with subjects and separate them by semi-colon. 
@@ -28,7 +28,7 @@ featured-locations-max: 3 # set number of top locations to display if auto gener
 #
 # Featured image on About page - if left blank, CB will use image featured on the home page
 # use either an objectid (from an item in this collect), a relative location of an image in this repo, or a full url to an image elsewhere
-about-featured-image: demo_001
+#about-featured-image: demo_001
 
 ##########
 # BROWSE PAGE
@@ -45,7 +45,7 @@ browse-buttons: true # true/false, adds previous/next arrows to item pages
 ##########
 # SUBJECTS PAGE
 #
-subjects-fields: subject;creator # set the field to be featured in the cloud (if left blank, none will be generated)
+subjects-fields: subject # set the field to be featured in the cloud (if left blank, none will be generated)
 subjects-min: 1 # min size for subject cloud, too many terms = slow load time!
 subjects-stopwords: # boxers;boxing;boxer # set of subjects separated by ;, e.g. boxers;boxing
 
@@ -80,9 +80,9 @@ year-nav-increment: 5 # set increments when auto gen nav years
 #
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
 # comma delimited list, reference url is automatic
-metadata-export-fields: "title,creator,date,description,subject,location,latitude,longitude,source,identifier,type,format,language,rights,rightsstatement"
+metadata-export-fields: "objectid,filename,title,creator,date,date_display,associated_names,subject,location,latitude,longitude,source,identifier,type,format,rights,rightsstatement"
 # generate a facets list for given fields, comma delimited
-metadata-facets-fields: "subject,creator,format"
+metadata-facets-fields: "subject,location"
 
 ##########
 # ADVANCED OPTIONS
