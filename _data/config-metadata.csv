@@ -1,12 +1,12 @@
 field,display_name,browse_link
-identifier,Call number
+identifier,Call number,
 title,Title,
 creator,Creator,
 date_display,Date Created,
 subject,Actress,true
 associate_names,Associated names,
 location,Location,true
-source,Source
+source,Source,
 format,Format,
 rights,Rights,
 rightsstatement,Rights statement,
